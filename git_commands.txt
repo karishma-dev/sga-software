@@ -1,0 +1,62 @@
+1. git init
+Initializes a new local Git repository in the project folder.
+
+2. git add .
+Stages all new and modified files.
+
+3. git commit -m "Initial commit: added index.html and about.html"
+Records the initial project state with index.html and about.html.
+
+4. git add index.html
+Stages the modified index.html file.
+
+5. git commit -m "Updated index.html content"
+Creates a second commit after updating index.html.
+
+6. git branch feature
+Creates a new branch named feature.
+
+7. git checkout feature
+Switches from main branch to feature branch.
+
+8. git add about.html
+Stages changes made in about.html on the feature branch.
+
+9. git commit -m "Feature update: modified about.html"
+Commits the feature branch changes.
+
+10. git checkout main
+Switches back to the main branch.
+
+11. git merge feature
+Merges the feature branch into the main branch.
+
+12. git log --oneline --graph --all
+Displays compact commit history with branch and merge activity.
+
+13. git add .gitignore
+Stages the .gitignore file.
+
+14. git commit -m "Added .gitignore for log files and temp folder"
+Commits ignore rules for .log files and temp/ folder.
+
+15. git add index.html
+Stages additional changes for undo demonstration.
+
+16. git commit -m "Extra commit for undo demonstration"
+Creates an additional commit before performing undo.
+
+17. git reset --soft HEAD~1
+Undoes the last commit while keeping changes staged.
+
+18. git status
+Shows repository state after undo operation.
+
+19. git remote add origin https://github.com/karishma-dev/sga-software.git
+Connects local repository to the remote public GitHub repository.
+
+20. git branch -M main
+Renames the current branch to main.
+
+21. git push -u origin main
+Pushes local commits to GitHub and sets upstream tracking.
